@@ -258,8 +258,8 @@ function generateHtml(planMarkdown, trainingCsv) {
     /* Header */
     header {
       text-align: center;
-      margin-bottom: 3rem;
-      padding-bottom: 2rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
       border-bottom: 2px solid var(--pink);
     }
 
@@ -273,41 +273,16 @@ function generateHtml(planMarkdown, trainingCsv) {
       text-shadow: 0 0 10px rgba(0, 255, 245, 0.5);
     }
 
-    .subtitle {
+
+    .race-info {
       font-family: 'VT323', monospace;
-      font-size: 1.8rem;
-      color: var(--pink);
-      text-shadow: 0 0 8px rgba(255, 46, 151, 0.4);
-    }
-
-    /* Countdown */
-    .countdown {
-      text-align: center;
-      margin: 2.5rem 0;
-      padding: 2rem;
-      border: 1px solid var(--cyan);
-      background: rgba(0, 255, 245, 0.03);
-    }
-
-    .countdown .number {
-      font-family: 'VT323', monospace;
-      font-size: 5rem;
-      color: var(--orange);
-      text-shadow: 0 0 20px rgba(255, 159, 28, 0.6);
-      line-height: 1;
-    }
-
-    .countdown .label {
-      font-family: 'VT323', monospace;
-      font-size: 1.5rem;
-      color: var(--yellow);
-      margin-top: 0.5rem;
-    }
-
-    .countdown .race-date {
-      font-size: 0.9rem;
+      font-size: 1.1rem;
       color: var(--text-dim);
       margin-top: 0.5rem;
+    }
+
+    .race-info span {
+      color: var(--orange);
     }
 
     /* Sections */
@@ -419,12 +394,6 @@ function generateHtml(planMarkdown, trainingCsv) {
       text-align: center;
     }
 
-    /* Data section */
-    .data-section .placeholder {
-      border-color: var(--orange);
-      color: var(--orange);
-    }
-
     /* Footer */
     footer {
       margin-top: 3rem;
@@ -442,8 +411,6 @@ function generateHtml(planMarkdown, trainingCsv) {
     /* Responsive */
     @media (max-width: 600px) {
       h1 { font-size: 0.9rem; }
-      .subtitle { font-size: 1.4rem; }
-      .countdown .number { font-size: 3.5rem; }
       .section-header { font-size: 0.65rem; }
     }
   </style>
@@ -451,26 +418,14 @@ function generateHtml(planMarkdown, trainingCsv) {
 <body>
   <div class="container">
     <header>
-      <h1>Training Dashboard</h1>
-      <div class="subtitle">${RACE_NAME}</div>
+      <h1>${RACE_NAME}</h1>
+      <div class="race-info">March 27, 2027 &mdash; <span>${countdown.days} days</span></div>
     </header>
 
-    <div class="countdown">
-      <div class="number">${countdown.days}</div>
-      <div class="label">${countdown.label}</div>
-      <div class="race-date">March 27, 2027 &mdash; Charlottesville, VA</div>
-    </div>
-
     <section>
-      <h2 class="section-header">Current Training Plan</h2>
       <div class="plan-content">
         ${planHtml}
       </div>
-    </section>
-
-    <section class="data-section">
-      <h2 class="section-header">Training Data</h2>
-      <p class="placeholder">Coming soon &mdash; training log visualization</p>
     </section>
 
     <footer>

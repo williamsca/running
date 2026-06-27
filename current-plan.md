@@ -2,13 +2,6 @@
 
 **Phase:** Base Building (Weeks 1–8)
 **Target mileage:** 12 miles
-**Race day:** March 27, 2027 (273 days away)
-
-## Physiology
-
-We begin with aerobic base development. Your mitochondrial density and capillary networks need expansion before we layer intensity. Think of this as pouring the foundation — tedious, invisible, essential. You will not feel fast. That is the point.
-
-Your current 9 mi/week is the floor. We add ~30% over 4 weeks, hold, then build again. Injury comes from impatience.
 
 ## Workouts
 
@@ -19,8 +12,8 @@ Your current 9 mi/week is the floor. We add ~30% over 4 weeks, hold, then build 
 | Sat | Long | 4.5 mi | 10:30–11:00/mi | If you can't talk in full sentences, slow down |
 | (Optional) | Recovery | 2.0 mi | 11:00+/mi | Only if legs feel good |
 
-## Notes
+## Physiology
 
-- Minimalist shoes: monitor any achilles/calf tightness as mileage increases. Report immediately.
-- The intervals maintain your VO2max stimulus while we build volume underneath.
-- Do not race your easy runs. Easy means easy. I will know.
+We begin with aerobic base development. Your mitochondrial density and capillary networks need expansion before we layer intensity. Think of this as pouring the foundation — tedious, invisible, essential. You will not feel fast. That is the point.
+
+Your current 9 mi/week is the floor. We add ~30% over 4 weeks, hold, then build again. Injury comes from impatience. The intervals maintain your VO2max stimulus while we build volume underneath.
